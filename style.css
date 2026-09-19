@@ -5,34 +5,34 @@
   --font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-code: 'Fira Code', monospace;
 
-  /* Color Palette - Dark Theme Default */
-  --bg-primary: #0a0d14;
-  --bg-secondary: #121723;
-  --bg-tertiary: #1a2030;
-  --bg-card: rgba(26, 32, 48, 0.7);
-  --bg-glass: rgba(18, 23, 35, 0.75);
+  /* Color Palette - Red & Black Theme Default */
+  --bg-primary: #0a0a0c;
+  --bg-secondary: #121216;
+  --bg-tertiary: #1c1a20;
+  --bg-card: rgba(28, 24, 30, 0.75);
+  --bg-glass: rgba(18, 18, 22, 0.85);
   
   --border-color: rgba(255, 255, 255, 0.08);
-  --border-glow: rgba(0, 210, 255, 0.3);
+  --border-glow: rgba(239, 68, 68, 0.35);
 
-  --text-primary: #f1f5f9;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #f8fafc;
+  --text-secondary: #a1a1aa;
+  --text-muted: #71717a;
 
-  --accent-cyan: #00d2ff;
-  --accent-blue: #3a7bd5;
-  --accent-purple: #7f53ac;
+  --accent-cyan: #ff3344;
+  --accent-blue: #dc2626;
+  --accent-purple: #991b1b;
   --accent-emerald: #10b981;
   --accent-gold: #f59e0b;
 
-  --gradient-primary: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
-  --gradient-accent: linear-gradient(135deg, #7f53ac 0%, #647eee 100%);
-  --gradient-dark: linear-gradient(180deg, #0a0d14 0%, #121723 100%);
-  --gradient-card: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%);
+  --gradient-primary: linear-gradient(135deg, #ff3344 0%, #dc2626 100%);
+  --gradient-accent: linear-gradient(135deg, #ef4444 0%, #991b1b 100%);
+  --gradient-dark: linear-gradient(180deg, #0a0a0c 0%, #121216 100%);
+  --gradient-card: linear-gradient(135deg, rgba(255,51,68,0.08) 0%, rgba(255,255,255,0.01) 100%);
 
-  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.5), 0 0 20px rgba(0, 210, 255, 0.15);
-  --shadow-glow: 0 0 25px rgba(0, 210, 255, 0.4);
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 25px -5px rgba(0, 0, 0, 0.6), 0 0 20px rgba(255, 51, 68, 0.2);
+  --shadow-glow: 0 0 25px rgba(255, 51, 68, 0.45);
 
   --transition-fast: 0.2s ease;
   --transition-normal: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -293,8 +293,8 @@ section {
   display: flex;
   align-items: center;
   padding-top: 100px;
-  background: radial-gradient(circle at 10% 20%, rgba(0, 210, 255, 0.08) 0%, transparent 40%),
-              radial-gradient(circle at 90% 80%, rgba(127, 83, 172, 0.08) 0%, transparent 40%);
+  background: radial-gradient(circle at 10% 20%, rgba(255, 51, 68, 0.12) 0%, transparent 45%),
+              radial-gradient(circle at 90% 80%, rgba(153, 27, 27, 0.15) 0%, transparent 45%);
 }
 
 .hero-grid {
