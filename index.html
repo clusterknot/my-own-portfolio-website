@@ -1,6 +1,486 @@
-This is my first file of
-ctrl + s --> save
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alok Anand | Principal AI & ML Engineer | Data Science Leader</title>
+  <meta name="description" content="Portfolio of Alok Anand - Senior Technical Leader with 10+ years of experience in Data Science, Machine Learning Engineering, and GenAI / Agentic AI Integrations. Ex-American Express.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-Hi Right now I am learning Git & Github
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">
+        <span>Alok Anand</span>
+        <span class="logo-badge">10+ Yrs Exp</span>
+      </a>
 
-I am updating this file as well.
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-tagline">
+            <i class="fa-solid fa-circle-check"></i> 10+ Years Technical Experience
+          </div>
+          <h1 class="hero-title">
+            Architecting <span class="highlight">Data Science</span>, ML & AI Solutions
+          </h1>
+          <p class="hero-description">
+            Seasoned AI Leader & Machine Learning Specialist with expertise delivering enterprise-grade ML pipelines, LLM agentic integrations, and financial intelligence systems at scale.
+          </p>
+
+          <div class="hero-badges">
+            <div class="hero-badge"><i class="fa-solid fa-building-columns"></i> Ex-American Express</div>
+            <div class="hero-badge"><i class="fa-solid fa-brain"></i> GenAI & Agentic AI</div>
+            <div class="hero-badge"><i class="fa-solid fa-network-wired"></i> MLOps & Production Pipelines</div>
+          </div>
+
+          <div class="hero-buttons">
+            <a href="#experience" class="btn btn-primary">
+              <i class="fa-solid fa-briefcase"></i> View Experience
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <i class="fa-solid fa-paper-plane"></i> Get in Touch
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="floating-tag floating-tag-1">
+              <i class="fa-solid fa-bolt"></i> LLM & RAG Architect
+            </div>
+            
+            <div class="profile-avatar-container">
+              <div class="profile-avatar">AA</div>
+            </div>
+
+            <h3 class="visual-title">Alok Anand</h3>
+            <p class="visual-subtitle">Senior AI & Data Science Specialist</p>
+
+            <div class="visual-stats">
+              <div class="visual-stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">Years Tech</span>
+              </div>
+              <div class="visual-stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">ML Models</span>
+              </div>
+              <div class="visual-stat-item">
+                <span class="stat-number">FinTech</span>
+                <span class="stat-label">Domain Expertise</span>
+              </div>
+            </div>
+
+            <div class="floating-tag floating-tag-2">
+              <i class="fa-solid fa-shield-halved"></i> Enterprise Security & Scale
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Metrics Highlight Section -->
+  <section class="metrics-section">
+    <div class="container">
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fa-solid fa-award"></i></div>
+          <div>
+            <div class="metric-value">10+</div>
+            <div class="metric-title">Years Industry Track Record</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fa-solid fa-building"></i></div>
+          <div>
+            <div class="metric-value">American Express</div>
+            <div class="metric-title">Enterprise FinTech Experience</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fa-solid fa-diagram-project"></i></div>
+          <div>
+            <div class="metric-value">AI Integrations</div>
+            <div class="metric-title">LLMs, RAG & Autonomous Agents</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <div>
+            <div class="metric-value">Scale & Impact</div>
+            <div class="metric-title">High-throughput ML Workflows</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-title">About Alok Anand</h2>
+          <p class="section-subtitle">Driving business transformation through advanced artificial intelligence and scalable engineering.</p>
+          <p>
+            With over a decade of hands-on technical and architectural leadership in <span class="highlight-text">Data Science, Machine Learning Engineering, and GenAI Integrations</span>, I specialize in transforming complex business challenges into resilient, production-ready AI solutions.
+          </p>
+          <p>
+            Having worked with market leaders like <span class="highlight-text">American Express</span>, I bring deep domain expertise in financial technology, risk analytics, fraud prevention models, and enterprise-grade AI deployment.
+          </p>
+
+          <div class="about-features">
+            <div class="feature-box">
+              <i class="fa-solid fa-robot"></i>
+              <h4>AI & GenAI Systems</h4>
+              <p>Designing custom RAG pipelines, fine-tuned LLMs, and autonomous agent orchestration.</p>
+            </div>
+            <div class="feature-box">
+              <i class="fa-solid fa-gears"></i>
+              <h4>End-to-End MLOps</h4>
+              <p>Building automated data ingestion, continuous training, model monitoring, and deployment.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-card-container">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-layer-group"></i></div>
+            <h3>Core Principles</h3>
+            <ul class="timeline-bullets" style="margin-top: 1rem;">
+              <li><strong>Business-First AI:</strong> Translating business goals directly into robust machine learning algorithms.</li>
+              <li><strong>Enterprise Reliability:</strong> Prioritizing governance, security, and low-latency execution for critical infrastructure.</li>
+              <li><strong>Continuous Innovation:</strong> Integrating state-of-the-art Generative AI techniques into classic predictive modeling.</li>
+              <li><strong>Cross-Functional Leadership:</strong> Mentoring engineering teams and driving alignment across product and business units.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="experience-section" id="experience">
+    <div class="container">
+      <div class="center-text">
+        <h2 class="section-title">Career Experience</h2>
+        <p class="section-subtitle">A decade of impactful work spanning enterprise finance, ML systems, and advanced AI architectures.</p>
+      </div>
+
+      <div class="timeline">
+        <!-- Amex Experience -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <span class="company-tag"><i class="fa-solid fa-building-columns"></i> American Express</span>
+                <h3 class="role-title">Lead Data Scientist & ML Engineer</h3>
+              </div>
+              <span class="timeline-date">Enterprise FinTech</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Architected and deployed high-performance predictive ML models for credit risk, fraud detection, and customer personalization processing millions of daily transactions.</li>
+              <li>Spearheaded integration of GenAI capabilities and intelligent automated agents into internal decision-support frameworks.</li>
+              <li>Optimized feature engineering pipelines and reduced inference latency by 40% using containerized model serving microservices.</li>
+              <li>Collaborated with cross-functional global teams to enforce stringent compliance, governance, and model interpretability protocols.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Predictive Modeling</span>
+              <span>Fraud Risk Analytics</span>
+              <span>Python</span>
+              <span>PyTorch / XGBoost</span>
+              <span>GenAI Integrations</span>
+              <span>AWS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Leadership / Senior ML Role -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <span class="company-tag"><i class="fa-solid fa-microchip"></i> Senior Tech Leadership</span>
+                <h3 class="role-title">Senior Machine Learning Specialist & AI Architect</h3>
+              </div>
+              <span class="timeline-date">10+ Years Journey</span>
+            </div>
+            <ul class="timeline-bullets">
+              <li>Led end-to-end development of custom recommendation engines, natural language understanding pipelines, and automated forecasting solutions.</li>
+              <li>Pioneered modern RAG architectures combining vector databases (Pinecone, ChromaDB) with enterprise LLM endpoints for contextual retrieval.</li>
+              <li>Designed robust CI/CD and automated retraining workflows for production ML workloads.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>LLM Orchestration</span>
+              <span>RAG Pipelines</span>
+              <span>MLOps</span>
+              <span>Vector DBs</span>
+              <span>Docker & K8s</span>
+              <span>Scikit-Learn</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section" id="skills">
+    <div class="container">
+      <div class="center-text">
+        <h2 class="section-title">Technical Expertise</h2>
+        <p class="section-subtitle">Comprehensive skill set spanning modern AI technologies, statistical modeling, and production software engineering.</p>
+      </div>
+
+      <div class="skills-grid">
+        <!-- AI & GenAI -->
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>GenAI & AI Integrations</h3>
+          <div class="skill-list">
+            <div>
+              <div class="skill-item-header"><span>LLM Orchestration & Prompt Eng.</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+            </div>
+            <div>
+              <div class="skill-item-header"><span>RAG & Vector Search</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+            </div>
+            <div>
+              <div class="skill-item-header"><span>Autonomous AI Agents</span><span>88%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Science & ML -->
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h3>Data Science & ML</h3>
+          <div class="skill-list">
+            <div>
+              <div class="skill-item-header"><span>Predictive Modeling & Statistical Inference</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+            </div>
+            <div>
+              <div class="skill-item-header"><span>PyTorch / TensorFlow / XGBoost</span><span>92%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="92"></div></div>
+            </div>
+            <div>
+              <div class="skill-item-header"><span>Feature Engineering & EDA</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MLOps & Infrastructure -->
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+          <h3>MLOps & Engineering</h3>
+          <div class="skill-list">
+            <div>
+              <div class="skill-item-header"><span>Python & Software Architecture</span><span>95%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="95"></div></div>
+            </div>
+            <div>
+              <div class="skill-item-header"><span>Docker / Kubernetes / Microservices</span><span>85%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+            </div>
+            <div>
+              <div class="skill-item-header"><span>Cloud Services (AWS / GCP)</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress" data-progress="90"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="container">
+      <div class="center-text">
+        <h2 class="section-title">Selected Featured Work</h2>
+        <p class="section-subtitle">A spotlight on key Machine Learning and AI Integration solutions.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-category">GenAI & Enterprise</span>
+            <div class="project-links">
+              <a href="#" aria-label="Project Details"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Enterprise Knowledge RAG Engine</h3>
+            <p class="project-desc">
+              Multi-modal retrieval-augmented generation system parsing heterogeneous corporate documentation with real-time vector indexing and hallucination guardrails.
+            </p>
+            <div class="project-tags">
+              <span>LangChain</span>
+              <span>Pinecone</span>
+              <span>FastAPI</span>
+              <span>Python</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-category">FinTech & Risk</span>
+            <div class="project-links">
+              <a href="#" aria-label="Project Details"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Real-Time Anomaly & Fraud Detector</h3>
+            <p class="project-desc">
+              Low-latency ensemble machine learning system designed to evaluate transactional risk profiles in sub-50ms window with automated explainability (SHAP).
+            </p>
+            <div class="project-tags">
+              <span>XGBoost</span>
+              <span>PyTorch</span>
+              <span>Kafka</span>
+              <span>Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-header">
+            <span class="project-category">Autonomous Agents</span>
+            <div class="project-links">
+              <a href="#" aria-label="Project Details"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Autonomous Financial Analyst Agent</h3>
+            <p class="project-desc">
+              Agentic workflow system capable of executing market sentiment analysis, web synthesis, and generating structured financial report summaries automatically.
+            </p>
+            <div class="project-tags">
+              <span>AutoGPT / CrewAI</span>
+              <span>OpenAI API</span>
+              <span>Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <div class="contact-grid">
+          <div>
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle" style="margin-bottom: 2rem;">Interested in collaborating on Data Science, ML Engineering, or AI Integrations?</p>
+            
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p>alok.anand@example.com</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>India / Remote Available</p>
+              </div>
+            </div>
+
+            <div class="contact-info-item">
+              <div class="contact-icon"><i class="fa-solid fa-building-user"></i></div>
+              <div class="contact-details">
+                <h4>Specialization</h4>
+                <p>Principal AI / ML Architecture</p>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <form id="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Alok will get back to you shortly.');">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                <i class="fa-solid fa-paper-plane"></i> Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://github.com/clusterknot" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:alok.anand@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p>&copy; 2026 Alok Anand. All rights reserved. Built for high-impact AI & Data Science leadership.</p>
+    </div>
+  </footer>
+
+  <!-- Custom Script -->
+  <script src="script.js"></script>
+</body>
+</html>
